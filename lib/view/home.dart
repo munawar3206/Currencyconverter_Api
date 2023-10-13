@@ -13,9 +13,10 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 0, 0, 0),
         title: const Text(
-          'Currency Xchange',
+          'Coinvert',
           style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
         ),
+        centerTitle: true,
       ),
       body: Container(
         height: MediaQuery.of(context).size.height,
