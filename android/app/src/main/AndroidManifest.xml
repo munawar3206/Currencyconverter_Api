@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="currencyxchanger"
+        android:label="Coinvert"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
