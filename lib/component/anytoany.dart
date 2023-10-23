@@ -33,7 +33,7 @@ class AnyToAny extends StatelessWidget {
                 return TextFormField(
                   key: const ValueKey('amount'),
                   controller: value.amountController,
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                     hintText: 'Enter Amount',
                   ),
                   keyboardType: TextInputType.number,
@@ -56,7 +56,7 @@ class AnyToAny extends StatelessWidget {
                         isExpanded: true,
                         underline: Container(
                           height: 2,
-                          color: Color.fromARGB(255, 0, 0, 0),
+                          color:const Color.fromARGB(255, 0, 0, 0),
                         ),
                         onChanged: (String? newValue) {
                           Provider.of<AnyToAnyProvider>(context, listen: false)

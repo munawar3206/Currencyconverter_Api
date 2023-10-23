@@ -1,6 +1,5 @@
 import 'package:currencyxchanger/models/allcurrencies.dart';
 import 'package:http/http.dart' as http;
-
 import '../models/rates_model.dart';
 
 class ExchangeRates {
